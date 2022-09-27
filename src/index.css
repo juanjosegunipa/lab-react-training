@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.idCard {
+  border: 1px solid black;
+  margin: 5px 500px 10px 500px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.text>p {
+  margin: 0;
+  text-align: left;
+}
+
+.picture {
+  padding: 5px;
+}
+
+.subs {
+  display: inline;
+  font-weight: bold;
+}
+
+.props {
+  display: inline;
+}
+
+.greetings {
+  border: 1px solid black;
+  margin: 5px 500px 10px 500px;
+  font-size: 50px;
+  text-align: left;
+  padding: 10px;
+}
+
+.random {
+  border: 1px solid black;
+  margin: 5px 500px 10px 500px;
+  font-size: 40px;
+  text-align: left;
+  padding: 10px;
+}
+
+.creditCards {
+  border-radius: 10px;
+  margin: 5px 770px 10px 770px;
+  padding: 30px
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+}
+
+.number {
+  font-size: 35px;
+}
+
+.info {
+  text-align: left;
+}
+
+.bank {
+  margin-left: 25px;
+}
+
+.driverCard {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: rgb(107, 0, 247);
+  margin: 5px 500px 10px 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 30px 50px;
+  color: white;
+}
+
+.driverInfo {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 25px;
+}
